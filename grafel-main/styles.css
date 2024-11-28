@@ -1,0 +1,377 @@
+  /* DO NOT TOUCH -------->*/
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1293D4;
+}
+
+/* INICIO HEADER: */
+header {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    height: 80px;
+    margin-bottom: 5px;
+    width: 100vw;
+}
+
+.navigator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 80px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #1293D4;
+    transform: scale(1.05);
+}
+
+.title{
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.blueTitle{
+    color: #1293D4;
+}
+.inicio{
+    color: #1293D4;
+}
+/* FIN HEADER */
+
+
+/* INICIO SUBSCRIBETE */
+.subscribe{
+    margin-top: -5px;
+    background-color: #333;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+.text{
+    line-height: 40px;
+    color: #fff;
+}
+
+.btn{
+    width: 100px;
+    background-color: #E8491F;
+    margin: 0;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+}
+.input{
+    padding: 8px;
+    padding-right: 80px;
+}
+/* FIN SUBSCRIBETE */
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    width: 100vw;
+    color: #fff;
+}
+/* FIN FOOTER */
+
+        /* DO NOT TOUCH <--------*/
+
+
+/* INDEX.INICIO IMAGEN CABECERA CON TEXTO */
+.imagen-cabecera-contenedor {
+    position: relative;
+    width: 100vw;
+}
+
+.imagen-cabecera {
+    width: 100%;
+    height: auto;
+}
+
+.texto-imagen{
+    position: absolute; /* Permite la colocación precisa dentro del contenedor */
+    top: 50%; /* Posiciona el borde superior al 50% del contenedor */
+    left: 50%; /* Posiciona el borde izquierdo al 50% del contenedor */
+    transform: translate(-50%, -50%); /* Mueve el elemento hacia atrás en un 50% de su ancho y alto */
+    text-align: center;
+}
+.texto-imagen h1{
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+}
+.texto-imagen p{
+    color: #fff;
+    margin-top: 30px;
+}
+/* INDEX.FIN IMAGEN CABECERA CON TEXTO */
+
+
+/* INDEX.INICIO IMAGENES TRILOGIA */
+.trilogy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+}
+p{
+    margin: 0;
+}
+.html,
+.css,
+.diseño-grafico{
+    padding: 35px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.html img,
+.css img,
+.diseño-grafico img{
+    width: 120px;
+}
+.html{
+    margin-right: -25px;
+}
+.diseño-grafico{
+    margin-left: -25px;
+}
+/* INDEX.FIN IMAGENES TRILOGIA */
+
+
+
+/* NOSOTROS.INICIO SUBSCRIBE */
+.subscribe-NOSOTROS{
+    margin-top: 0px;
+    background-color: #333;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+/* NOSOTROS.FIN SUBSCRIBE */
+
+
+/* NOSOTROS.INICIO CONTENIDO PPAL */
+
+/* div padre: */
+.nosotros-content-padre{
+display: flex;
+flex-direction: row;
+width: 100vw;
+}
+
+/* div 1 dentro del principal: */
+.div-1{
+    width: 65vw;
+    padding: 20px 80px 60px 150px;
+    background-color: #fff;
+}
+.nosotros-text-1{
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.nosotros-text-2{
+    background-color: #35424A;
+    padding: 20px;
+    margin: 20px 0;
+}
+.nosotros-text-2 p{
+    color: #fff;
+}
+
+.imagen-891-contenedor{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.imagen-891-contenedor img{
+    width: 100%
+}
+.div-2{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    padding: 10px 30px;
+    background-color: #ffffff;
+}
+.que-hacemos{
+    margin-top: 40px;
+    background-color: #35424A;
+    width: 75%;
+    padding: 30px;
+    padding-left: 15px;
+    border-radius: 2px;
+}
+.que-hacemos h2{
+    color: #fff;
+    margin-top: 0;
+}
+.que-hacemos p{
+    color: #fff;
+}
+.servicios-content-padre{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.div-1-textos{
+    width: 65vw;
+    padding: 40px 50px 80px 80px;
+    background-color: #fff;
+}
+.div-1-textos h2{
+    margin-left: 5px;
+}
+.div-1-texto-1{
+    background-color: #E6E6E6;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #CCCC;
+    border-radius: 2px;
+}
+.div-1-texto-2{
+    background-color: #E6E6E6;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #CCCC;
+    border-radius: 2px;
+}
+.div-1-texto-3{
+    background-color: #E6E6E6;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #CCCC;
+    border-radius: 2px;
+}
+.contacto-content-padre{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: #fff;
+}
+
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    text-align: left;
+    padding: 0px 60px 0px 180px;
+}
+
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input{
+    background-color: #cccccc1c;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+textarea{
+    height: 120px;
+}
+
+.contact-form button {
+    background-color: #1293D4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0a7bbd;
+}
+
+
+/* imagen mapa:  */
+.mapa-container{
+    padding-top: 20px;
+}
+.mapa-container img{
+    width: 80%;
+    padding-bottom: 200px;
+}
+
+
+
+/* CAMBIANDO EL COLOR DE LOS BOTONES HEADER */
+
+/* SERVICIOS:  */
+.inicio-servicios{
+    color: #fff;
+}
+.nosotros-servicios{
+    color: #fff;
+}
+.servicios-servicios{
+    color: #1293D4;
+}
+.contacto-servicios{
+    color: #fff;
+}
+
+/* NOSOTROS:  */
+.inicio-nosotros{
+    color: #fff;
+}
+.nosotros-nosotros{
+    color: #1293D4;
+}
+.servicios-nosotros{
+    color: #fff;
+}
+.contacto-nosotros{
+    color: #fff;
+}
+
+/* CONTACTO:  */
+.inicio-contacto{
+    color: #fff;
+}
+.nosotros-contacto{
+    color: #fff;
+}
+.servicios-contacto{
+    color: #fff;
+}
+.contacto-contacto{
+    color: #1293D4;
+}
